@@ -7,7 +7,7 @@ IP := $(shell docker inspect $(ALIAS) | grep "IPAddress\"" | head -n1 | cut -d '
 endif
 STALE_IMAGES := $(shell docker images | grep "<none>" | awk '{print($$3)}')
 EMULATOR ?= "android-24"
-ARCH ?= "x86"
+ARCH ?= "armeabi-v7a"
 
 COLON := :
 

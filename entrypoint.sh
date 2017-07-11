@@ -6,7 +6,7 @@ if [[ $EMULATOR == "" ]]; then
 fi
 
 if [[ $ARCH == "" ]]; then
-    ARCH="x86"
+    ARCH="armeabi-v7a"
     echo "Using default arch $ARCH"
 fi
 

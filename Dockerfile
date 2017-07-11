@@ -26,7 +26,8 @@ RUN echo y | android update sdk -u -a -t platform-tools \
     && echo y | android update sdk -u -a -t build-tools-25.0.3 \
     && echo y | android update sdk -u -a -t android-24 \
     && echo y | android update sdk -u -a -t android-25 \
-    && echo y | android update sdk -u -a -t sys-img-x86-android-24
+    # && echo y | android update sdk -u -a -t sys-img-x86-android-24 \ // todo: add and make configurable
+    && echo y | android update sdk -u -a -t sys-img-armeabi-v7a-android-24
 
 # Create fake keymap file
 RUN mkdir /opt/android-sdk/tools/keymaps && \
