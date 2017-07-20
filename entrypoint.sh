@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $EMULATOR == "" ]]; then
-    EMULATOR="android-26"
+    EMULATOR="android-24"
     echo "Using default emulator $EMULATOR"
 fi
 
