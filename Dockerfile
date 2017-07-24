@@ -27,7 +27,8 @@ RUN echo y | android update sdk -u -a -t platform-tools \
     && echo y | android update sdk -u -a -t android-24 \
     # && echo y | android update sdk -u -a -t android-25 \
     # && echo y | android update sdk -u -a -t android-26 \
-    && echo y | android update sdk -u -a -t sys-img-x86-android-24 
+    && echo y | android update sdk -u -a -t sys-img-x86-android-24 \
+    && echo y | android update sdk -u -a -t sys-img-armeabi-v7a-android-24
     # && echo y | android update sdk -u -a -t sys-img-x86-google_apis-25
     #&& echo y | android update sdk -u -a -t sys-img-x86-google_apis-26
 
